@@ -67,6 +67,10 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
+  .plane-clip-path {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%, 0 75%);
+  }
+
   .special-font b {
     font-family: "Zentry";
     font-feature-settings: "ss01" on;
@@ -112,7 +116,7 @@ body {
   }
 
   .glassmorph {
-    @apply bg-black/30 backdrop-blur-lg rounded-lg border border-white/20;
+    @apply bg-black/30 backdrop-blur-lg sm:rounded-lg rounded-none  border border-white/20;
   }
   .story-img-container {
     @apply relative md:h-dvh h-[90vh] w-full;

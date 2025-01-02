@@ -83,7 +83,7 @@ const NavBar = () => {
                             id="class-button"
                             title="Class of 25"
                             rightIcon={<TiLocationArrow />}
-                            containerClass="!bg-blue-700 text-blue-50 md:flex hidden items-center justify-center gap-1"
+                            containerClass="!bg-blue-700 text-blue-50 flex  items-center justify-center gap-1"
                             onClick={() => { navigate("/squad") }}
                         />
                     </div>

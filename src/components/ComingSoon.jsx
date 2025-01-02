@@ -7,7 +7,7 @@ const ComingSoon = () => {
         <div className='relative min-h-screen w-screen overflow-x-hidden flex justify-center items-center'>
             <NavBar />
             <AnimatedTitle
-                title="<b>Coming<br />Soon</b>"
+                title="Coming<br />Soon"
                 containerClass="special-font  w-full font-zentry  !text-black !leading-[.9]"
             />
         </div>

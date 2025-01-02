@@ -35,7 +35,7 @@ const About = () => {
                 </p>
 
                 <AnimatedTitle
-                    title="<b>Bold Is What We Are, Play Bold Is What We Do!</b>"
+                    title="Bold Is What We Are, Play Bold Is What We Do!"
                     containerClass="mt-5 !text-red-700 text-center"
                 />
 
